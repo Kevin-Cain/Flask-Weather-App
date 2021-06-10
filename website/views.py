@@ -19,7 +19,7 @@ def home():
 
     cities = City.query.all()
 
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=390725383a86052848e31cc0bf0195c2'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid={ YOUR OPENWEATHER API KEY HERE }'
     
     weather_data = []
 
